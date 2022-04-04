@@ -1,0 +1,5 @@
+主类是yxzn.rt.dw.dwd.sqlsubmit.SqlSubmit2
+main 方法是3个参数，第一是sql 文件的地址（是打包在jar 中的），第二个是ck的地址，第三是rdb 存的地址（所以有file 修饰的）
+1：/sql/dws_csc_user_pay_agg.sql
+2：hdfs://hdpfd3-58-cluster/home/flink/checkpoints/luochuan01/flink/tmp/dws_csc_user_pay_agg_copy/checkpoints
+3：file://./tmp/dws_csc_user_pay_agg
